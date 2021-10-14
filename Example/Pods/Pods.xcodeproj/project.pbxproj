@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F61803306A7DC3AAD859414BF540BF9 /* PrivoSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7706CE256C52D96FEFFB2FCE5C056011 /* PrivoSDK-dummy.m */; };
+		8C175432473AA3588253B50BB0599EDE /* PrivoSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5DE9609EF23D339C7A46186BFE6848C /* PrivoSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		968F12A51D7E1F02522486BA04973AC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BE2C6AFECD3D683D195C67385FD2329B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D54B5273B7B6BB7EDF62A52BB02EE526 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2A3E8C00921E0F4BED0EF474C08394 /* ReplaceMe.swift */; };
+		E22CEF26CEEDACEDBA4D2B24DFACDB49 /* Pods-PrivoSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A17042FFDF08A15608E09D51D102E98E /* Pods-PrivoSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEC545633B1E259134FF200F32610F6A /* Pods-PrivoSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BF4E1DD6F29C122B6CA43A5F0E1DCA /* Pods-PrivoSDK_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A217C23D5FD185B20BCA3D12FB98CF74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D983D26F63A2206E800A004265E33B88;
+			remoteInfo = PrivoSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BF6A83B38327B3209699081F6D21752 /* PrivoSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrivoSDK-prefix.pch"; sourceTree = "<group>"; };
+		2BB23C43874F87C7AA0AA037459575E3 /* PrivoSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PrivoSDK.modulemap; sourceTree = "<group>"; };
+		2D745D6BBA44D073283F0FD6BAECB3DC /* Pods-PrivoSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PrivoSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3CD2EF8D27A52104B3C64425CC456F9C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		40B81399C75A4A6567D86D8532CBA2A8 /* Pods-PrivoSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PrivoSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		4AD9124F9BEF13D4697FCAE6F54B874E /* Pods-PrivoSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrivoSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4D6EAB9F8108940752F71C27854648F0 /* Pods-PrivoSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrivoSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		63ABA7998D143D04E4301E7894666B56 /* Pods-PrivoSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PrivoSDK_Tests"; path = Pods_PrivoSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C8974BFA7A1D5BADEE03AD31995A285 /* PrivoSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PrivoSDK.debug.xcconfig; sourceTree = "<group>"; };
+		70BCD539C360570A576135B5BEE206A9 /* Pods-PrivoSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrivoSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7706CE256C52D96FEFFB2FCE5C056011 /* PrivoSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PrivoSDK-dummy.m"; sourceTree = "<group>"; };
+		7E02ECD0FEC2B49F394018EF3317C1D1 /* PrivoSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PrivoSDK; path = PrivoSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D2A3E8C00921E0F4BED0EF474C08394 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PrivoSDK/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		9920DD8EF408A33817387F9AF24A028E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A17042FFDF08A15608E09D51D102E98E /* Pods-PrivoSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PrivoSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AFBB520744D49E01347730F75C6D7978 /* PrivoSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PrivoSDK-Info.plist"; sourceTree = "<group>"; };
+		B285E9F7B34A7B3B1C3F23F869A0FFAF /* PrivoSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PrivoSDK.release.xcconfig; sourceTree = "<group>"; };
+		B3BF0C83B1E0A51596E86C3EDAB05A9D /* Pods-PrivoSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PrivoSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C595DD9B12A75D2EAE63E70E22F85919 /* Pods-PrivoSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrivoSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		F5DE9609EF23D339C7A46186BFE6848C /* PrivoSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrivoSDK-umbrella.h"; sourceTree = "<group>"; };
+		F6BF4E1DD6F29C122B6CA43A5F0E1DCA /* Pods-PrivoSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PrivoSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		FAB5134A0F74660C1ED68EAE221C2EA1 /* PrivoSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PrivoSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B656D9F8307A109C012472986FE4AEE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968F12A51D7E1F02522486BA04973AC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4915EFFF6E402C5054E35C4861DCF2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2C6AFECD3D683D195C67385FD2329B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A52CC219965F8DE798208FF3C3F049C8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD3713BBFA0CB61D03DFB422BA52FA52 /* PrivoSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC092295B12A9618A36EA88B4AEF2A5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63ABA7998D143D04E4301E7894666B56 /* Pods-PrivoSDK_Tests */,
+				7E02ECD0FEC2B49F394018EF3317C1D1 /* PrivoSDK */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD3713BBFA0CB61D03DFB422BA52FA52 /* PrivoSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8D2A3E8C00921E0F4BED0EF474C08394 /* ReplaceMe.swift */,
+				BFD307D2AC7D913EDA73E21C55BA2844 /* Pod */,
+				FE313839C7DDB3A9F18BB73ADE35C991 /* Support Files */,
+			);
+			name = PrivoSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BFD307D2AC7D913EDA73E21C55BA2844 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9920DD8EF408A33817387F9AF24A028E /* LICENSE */,
+				FAB5134A0F74660C1ED68EAE221C2EA1 /* PrivoSDK.podspec */,
+				3CD2EF8D27A52104B3C64425CC456F9C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A52CC219965F8DE798208FF3C3F049C8 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BC092295B12A9618A36EA88B4AEF2A5A /* Products */,
+				E4F119D5F201605A91D90507A965C8CF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E172EB027A472BF5237CE3F1C8A18216 /* Pods-PrivoSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				40B81399C75A4A6567D86D8532CBA2A8 /* Pods-PrivoSDK_Tests.modulemap */,
+				B3BF0C83B1E0A51596E86C3EDAB05A9D /* Pods-PrivoSDK_Tests-acknowledgements.markdown */,
+				4D6EAB9F8108940752F71C27854648F0 /* Pods-PrivoSDK_Tests-acknowledgements.plist */,
+				F6BF4E1DD6F29C122B6CA43A5F0E1DCA /* Pods-PrivoSDK_Tests-dummy.m */,
+				2D745D6BBA44D073283F0FD6BAECB3DC /* Pods-PrivoSDK_Tests-frameworks.sh */,
+				C595DD9B12A75D2EAE63E70E22F85919 /* Pods-PrivoSDK_Tests-Info.plist */,
+				A17042FFDF08A15608E09D51D102E98E /* Pods-PrivoSDK_Tests-umbrella.h */,
+				70BCD539C360570A576135B5BEE206A9 /* Pods-PrivoSDK_Tests.debug.xcconfig */,
+				4AD9124F9BEF13D4697FCAE6F54B874E /* Pods-PrivoSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-PrivoSDK_Tests";
+			path = "Target Support Files/Pods-PrivoSDK_Tests";
+			sourceTree = "<group>";
+		};
+		E4F119D5F201605A91D90507A965C8CF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E172EB027A472BF5237CE3F1C8A18216 /* Pods-PrivoSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FE313839C7DDB3A9F18BB73ADE35C991 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BB23C43874F87C7AA0AA037459575E3 /* PrivoSDK.modulemap */,
+				7706CE256C52D96FEFFB2FCE5C056011 /* PrivoSDK-dummy.m */,
+				AFBB520744D49E01347730F75C6D7978 /* PrivoSDK-Info.plist */,
+				1BF6A83B38327B3209699081F6D21752 /* PrivoSDK-prefix.pch */,
+				F5DE9609EF23D339C7A46186BFE6848C /* PrivoSDK-umbrella.h */,
+				6C8974BFA7A1D5BADEE03AD31995A285 /* PrivoSDK.debug.xcconfig */,
+				B285E9F7B34A7B3B1C3F23F869A0FFAF /* PrivoSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PrivoSDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D71AEEB5DD0635AC2F42EFA4AE7E046 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C175432473AA3588253B50BB0599EDE /* PrivoSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808634942C24FC741E27D2D00BF24898 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22CEF26CEEDACEDBA4D2B24DFACDB49 /* Pods-PrivoSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4D8910B2E1685F90212751BB3967974C /* Pods-PrivoSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA73AFAE530322A320C87548B28A8165 /* Build configuration list for PBXNativeTarget "Pods-PrivoSDK_Tests" */;
+			buildPhases = (
+				808634942C24FC741E27D2D00BF24898 /* Headers */,
+				82A533037B3CB5231DB36EE2A2CBCAF3 /* Sources */,
+				D4915EFFF6E402C5054E35C4861DCF2C /* Frameworks */,
+				3CA9E8B6432F6DC9CB7D54F6D10F9C0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EBB11C96B58786441E94395A6BBE96A /* PBXTargetDependency */,
+			);
+			name = "Pods-PrivoSDK_Tests";
+			productName = Pods_PrivoSDK_Tests;
+			productReference = 63ABA7998D143D04E4301E7894666B56 /* Pods-PrivoSDK_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D983D26F63A2206E800A004265E33B88 /* PrivoSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783A3F622931B7454B85BC3F6FC6049A /* Build configuration list for PBXNativeTarget "PrivoSDK" */;
+			buildPhases = (
+				0D71AEEB5DD0635AC2F42EFA4AE7E046 /* Headers */,
+				372F10C706980AB517315BC8807AA3FC /* Sources */,
+				B656D9F8307A109C012472986FE4AEE2 /* Frameworks */,
+				42912BEB3C74FBAEB779D6533978B172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrivoSDK;
+			productName = PrivoSDK;
+			productReference = 7E02ECD0FEC2B49F394018EF3317C1D1 /* PrivoSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BC092295B12A9618A36EA88B4AEF2A5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D8910B2E1685F90212751BB3967974C /* Pods-PrivoSDK_Tests */,
+				D983D26F63A2206E800A004265E33B88 /* PrivoSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CA9E8B6432F6DC9CB7D54F6D10F9C0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42912BEB3C74FBAEB779D6533978B172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		372F10C706980AB517315BC8807AA3FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F61803306A7DC3AAD859414BF540BF9 /* PrivoSDK-dummy.m in Sources */,
+				D54B5273B7B6BB7EDF62A52BB02EE526 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A533037B3CB5231DB36EE2A2CBCAF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC545633B1E259134FF200F32610F6A /* Pods-PrivoSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EBB11C96B58786441E94395A6BBE96A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PrivoSDK;
+			target = D983D26F63A2206E800A004265E33B88 /* PrivoSDK */;
+			targetProxy = A217C23D5FD185B20BCA3D12FB98CF74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D748D4D94C4C592DE7A734C610F3D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C8974BFA7A1D5BADEE03AD31995A285 /* PrivoSDK.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PrivoSDK/PrivoSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PrivoSDK/PrivoSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PrivoSDK/PrivoSDK.modulemap";
+				PRODUCT_MODULE_NAME = PrivoSDK;
+				PRODUCT_NAME = PrivoSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32C55EF7799D086D0C87CC04BB8A7D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70BCD539C360570A576135B5BEE206A9 /* Pods-PrivoSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PrivoSDK_Tests/Pods-PrivoSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PrivoSDK_Tests/Pods-PrivoSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4E339A682697D2F9DC90D5BC2E9123E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B285E9F7B34A7B3B1C3F23F869A0FFAF /* PrivoSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PrivoSDK/PrivoSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PrivoSDK/PrivoSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PrivoSDK/PrivoSDK.modulemap";
+				PRODUCT_MODULE_NAME = PrivoSDK;
+				PRODUCT_NAME = PrivoSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		78115781B64A092BF02F70F939A8BDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AD9124F9BEF13D4697FCAE6F54B874E /* Pods-PrivoSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PrivoSDK_Tests/Pods-PrivoSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PrivoSDK_Tests/Pods-PrivoSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783A3F622931B7454B85BC3F6FC6049A /* Build configuration list for PBXNativeTarget "PrivoSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D748D4D94C4C592DE7A734C610F3D09 /* Debug */,
+				4E339A682697D2F9DC90D5BC2E9123E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA73AFAE530322A320C87548B28A8165 /* Build configuration list for PBXNativeTarget "Pods-PrivoSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C55EF7799D086D0C87CC04BB8A7D3B /* Debug */,
+				78115781B64A092BF02F70F939A8BDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

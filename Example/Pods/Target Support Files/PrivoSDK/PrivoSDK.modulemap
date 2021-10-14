@@ -1,0 +1,6 @@
+framework module PrivoSDK {
+  umbrella header "PrivoSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - PrivoSDK (0.1.0)
+
+DEPENDENCIES:
+  - PrivoSDK (from `../`)
+
+EXTERNAL SOURCES:
+  PrivoSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PrivoSDK: 25f321a3155f67121ea44e407d3e4da94226ac81
+
+PODFILE CHECKSUM: 4118df4ff42a684d4300f0d3cedb6c22ad5d4c5d
+
+COCOAPODS: 1.11.2
