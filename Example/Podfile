@@ -1,0 +1,6 @@
+use_frameworks!
+target 'PrivoSDK_Tests' do
+  pod 'PrivoSDK', :path => '../'
+  
+  
+end
